@@ -35,3 +35,11 @@ setInterval(function(){
         })
     })
 })
+
+$(".popup").click(function(){
+    $(".modal").addClass("active")
+})
+
+$(".close").click(function(){
+    $(".modal").removeClass("active")
+})
